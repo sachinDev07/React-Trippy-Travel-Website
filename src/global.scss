@@ -5,3 +5,9 @@ $width: 930px;
         @content
     }
 }
+
+@mixin for-phone-only{
+    @media(max-width: 555px){
+        @content
+    }
+}
