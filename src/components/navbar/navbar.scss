@@ -61,11 +61,12 @@
             font-weight: 600;
             padding: .7rem 1rem;
             white-space: nowrap;
+            text-decoration: none;
             cursor: pointer;
 
             @include mobile{
-                display: block;
-                width: 100%;
+                display:block;
+                width: 100vw;
                 font-size: 1.2rem;
                 padding: 2rem 0;
                 text-align: center;
@@ -94,8 +95,9 @@
 
             @include mobile{
                 display: block;
-                width: 80%;
+                width: 80vw;
                 text-align: center;
+                text-decoration: none;
                 padding: 1.5rem;
                 margin: auto;
                 border-radius: 4px;
