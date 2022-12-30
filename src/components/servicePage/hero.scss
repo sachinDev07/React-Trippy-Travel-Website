@@ -1,0 +1,34 @@
+@import '../../global.scss';
+
+.service__hero{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero__text{
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h1{
+            font-size: 3rem;
+            font-weight: 800;
+            background: #fff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            @include for-phone-only{
+                padding: 10px 20px;
+            }
+        }
+    }
+}
