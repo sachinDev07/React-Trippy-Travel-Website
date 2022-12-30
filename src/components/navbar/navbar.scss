@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .navbar{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,6 +64,7 @@
             white-space: nowrap;
             text-decoration: none;
             cursor: pointer;
+            transition: all .3s ease;
 
             @include mobile{
                 display:block;
@@ -76,7 +78,7 @@
                 background-color: #01959a;
                 color: #fff;
                 border-radius: 4px;
-                transition: all .1s ease;
+                transition: all .3s ease;
 
                 @include mobile{
                     color: white;

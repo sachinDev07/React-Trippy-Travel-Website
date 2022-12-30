@@ -16,7 +16,7 @@ const Navbar = () => {
         <h1 className='navbar__logo'>Trippy</h1>
         <ul className={menuOpen ? "navbar__menu active" : "navbar__menu"} >
             {data.map((d)=>(
-                <li>
+                <li onClick={()=>handleClick()}>
                 <Link to={d.url} key={d.title} className={d.cName}><i className={d.icon}></i> {d.title}</Link>
                 </li>
             ))} 
