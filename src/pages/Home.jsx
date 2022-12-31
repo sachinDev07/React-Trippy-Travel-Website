@@ -1,4 +1,5 @@
 import React from 'react'
+import Destination from '../components/homePage/destination/Destination'
 import Hero from '../components/homePage/hero/Hero'
  
 
@@ -14,6 +15,8 @@ const Home = () => {
         url="/"
         btnClass="show"
        />
+
+       <Destination />
     </>
   )
 }
