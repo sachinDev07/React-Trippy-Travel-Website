@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.scss'
+import Trip from '../homePage/trip/Trip'
 
 const Hero = (props) => {
   return (
@@ -10,6 +11,8 @@ const Hero = (props) => {
             <h1>{props.title}</h1>
             </div>
         </div>
+
+        <Trip/>
     </>
   )
 }
