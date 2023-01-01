@@ -1,0 +1,93 @@
+@import '../../global.scss';
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 5rem 6rem 1rem 6rem;
+
+    @include for-phone-only{
+        padding: 4rem 2rem;
+    }
+
+    .f_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+        @include mobile{
+            flex-direction: column;
+            align-items:flex-start;
+        }
+
+        .brandName{
+            padding-bottom: 2rem;
+
+            h1{
+                font-size: 3rem;
+                text-align: start;
+            }
+
+            p{
+                margin-top: .5rem;
+                font-size: 1.1rem;
+            }
+        }
+
+        .socialMedia{
+            display: flex;
+            gap: 1rem;
+
+            a{
+             text-decoration: none;  
+             color: white; 
+
+                i{
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+
+    .other__info{
+        margin: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .box {
+            margin: 1.7rem 1.7rem 1.7rem 0;
+
+            @include mobile{
+                width: 50%;
+                margin: 0 0 1rem 0;
+            }
+  
+            &:last-child{
+                margin-right:0;
+            }
+
+            strong{
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+
+            ul {
+              margin: 1rem 0;  
+                
+                li{
+                    list-style: none;
+                    padding: .5rem 0;
+
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
