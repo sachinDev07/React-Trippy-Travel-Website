@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutUs from '../components/aboutPage/AboutUs'
 import Hero from '../components/aboutPage/Hero'
 import heroImg from '../components/assests/night.jpg'
 
@@ -10,6 +11,8 @@ const About = () => {
           heroImg={heroImg}
           title="About"
          />
+
+         <AboutUs/>
     </>
   )
 }

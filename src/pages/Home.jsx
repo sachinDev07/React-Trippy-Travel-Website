@@ -1,6 +1,8 @@
 import React from 'react'
+import Footer from '../components/footer/Footer'
 import Destination from '../components/homePage/destination/Destination'
 import Hero from '../components/homePage/hero/Hero'
+import Trip from '../components/homePage/trip/Trip'
  
 
 const Home = () => {
@@ -17,6 +19,9 @@ const Home = () => {
        />
 
        <Destination />
+
+       <Trip />
+       
     </>
   )
 }
