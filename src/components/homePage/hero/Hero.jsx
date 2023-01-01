@@ -4,7 +4,7 @@ import './hero.scss'
 const Hero = (props) => {
   return (
     <>
-      <div className={props.cName}>
+      <div className={props.cName} id='hero'>
         <img src={props.heroImg} />
         <div className="hero__text">
           <h1>{props.title}</h1>
