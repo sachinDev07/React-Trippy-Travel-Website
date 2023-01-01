@@ -68,10 +68,14 @@
 
             @include mobile{
                 display:block;
-                width: 100vw;
+                width: 766px;
                 font-size: 1.2rem;
                 padding: 2rem 0;
                 text-align: center;
+            }
+
+            @include for-phone-only{
+                width: 459px;
             }
 
             &:hover{
